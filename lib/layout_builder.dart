@@ -16,13 +16,13 @@ class LayoutBuilderClass extends StatelessWidget {
           return _buildLandscape(h/2);
         }
         else{
-          return _buildPortraid(w/2);
+          return _buildPortrait(w/2);
         }
       }),
     );
 
   }
-  Widget _buildPortraid(double size){
+  Widget _buildPortrait(double size){
     return  Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
